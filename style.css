@@ -130,7 +130,7 @@ img { display: block; max-width: 100%; }
   min-height: 92vh;
   overflow: hidden;
   color: white;
-  background: var(--black) url("images/ravi-profile.webp") 69% 36% / cover no-repeat;
+  background: var(--black) url("image/ravi-profile.webp") 69% 36% / cover no-repeat;
 }
 
 .hero-overlay {
