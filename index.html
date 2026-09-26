@@ -1,194 +1,228 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Ravi Digital builds responsive business websites for cafés, gyms and growing brands."
-    />
-    <title>Ravi Digital | Web Developer</title>
-    <link rel="icon" href="favicon.svg" type="image/ravi-profile.webp" />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header class="site-header">
-      <nav class="nav container" aria-label="Main navigation">
-        <a class="brand" href="#home" aria-label="Ravi Digital home">
-          <span class="brand-mark">RD</span>
-          <span>Ravi Digital</span>
-        </a>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Ravi Digital — web development, digital growth, templates and practical technology guides.">
+  <meta name="theme-color" content="#b8ff19">
+  <title>Ravi Digital — Web Developer & Digital Growth</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="cursor-glow"></div>
 
-        <button class="menu-button" type="button" aria-expanded="false" aria-controls="nav-links">
-          <span></span><span></span><span></span>
-          <span class="sr-only">Open menu</span>
-        </button>
-
-        <div class="nav-links" id="nav-links">
-          <a href="#home">Home</a>
-          <a href="#about">About</a>
-          <a href="#projects">Projects</a>
-          <a href="#blog">Blog</a>
-          <a class="nav-contact" href="#contact">Contact</a>
-        </div>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="#home"><span>R</span>avi<span class="dot">.</span></a>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+      <nav id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#templates">Templates</a>
+        <a href="#blog">Blog</a>
+        <a class="nav-cta" href="#contact">Let's Talk ↗</a>
       </nav>
-    </header>
+    </div>
+  </header>
 
-    <main>
-      <section class="hero" id="home">
-        <div class="hero-overlay"></div>
-        <div class="hero-content container">
-          <p class="eyebrow light">Web developer · Digital growth</p>
-          <h1>I build websites<br /><span>that grow business.</span></h1>
-          <p class="hero-copy">
-            I’m Ravi Kant Diwaker. I create clean, responsive websites for cafés,
-            gyms and growing businesses.
-          </p>
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-noise"></div>
+      <div class="hero-word">DIGITAL<br>GROWTH</div>
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <div class="availability"><span></span> Available for freelance work</div>
+          <p class="eyebrow">WEB DEVELOPER • DIGITAL GROWTH</p>
+          <h1>I BUILD<br><em>WEBSITES</em><br>THAT GROW<br><strong>BUSINESS.</strong></h1>
+          <p class="hero-lead">I'm Ravi Kant Diwaker. I create clean, responsive websites, digital experiences and practical tech resources for growing businesses and creators.</p>
           <div class="hero-actions">
-            <a class="button button-primary" href="#projects">View projects <span>↗</span></a>
-            <a class="button button-outline" href="#about">About me</a>
+            <a class="btn btn-primary" href="#templates">Explore Templates ↗</a>
+            <a class="btn btn-outline" href="#projects">View Projects</a>
+          </div>
+          <div class="mini-links">
+            <a href="#blog">Latest articles</a><span>•</span>
+            <a href="#contact">Work with me</a>
           </div>
         </div>
-        <div class="hero-stats container" aria-label="Portfolio statistics">
-          <div><strong>04</strong><span>Live projects</span></div>
-          <div><strong>03</strong><span>Core services</span></div>
-          <div><strong>100%</strong><span>Responsive</span></div>
+
+        <div class="hero-visual">
+          <div class="hero-grid"></div>
+          <div class="photo-wrap">
+            <div class="photo-back"></div>
+            <img src="images/character.png" alt="Ravi Kant Diwaker">
+            <div class="photo-tag"><b>RAVI DIGITAL</b><small>WEB • AI • GROWTH</small></div>
+          </div>
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="float-card card-code">&lt;/&gt;<small>Clean Code</small></div>
+          <div class="float-card card-growth">↗<small>Digital Growth</small></div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="section about" id="about">
-        <div class="container">
-          <div class="section-heading">
-            <div>
-              <p class="eyebrow">01 / About</p>
-              <h2>About Ravi Digital</h2>
-            </div>
-            <p>
-              I turn business ideas into simple websites that help customers understand
-              the offer and take the next step.
-            </p>
-          </div>
+    <section class="marquee">
+      <div class="marquee-track">
+        <span>WEBSITES</span><b>✦</b><span>AI TOOLS</span><b>✦</b><span>DIGITAL GROWTH</span><b>✦</b><span>WEB TEMPLATES</span><b>✦</b>
+        <span>WEBSITES</span><b>✦</b><span>AI TOOLS</span><b>✦</b><span>DIGITAL GROWTH</span><b>✦</b><span>WEB TEMPLATES</span><b>✦</b>
+      </div>
+    </section>
 
-          <div class="about-grid">
-            <article class="about-main">
-              <span class="card-number">01</span>
-              <h3>Useful websites, built with purpose.</h3>
-              <p>
-                My work combines clear design, responsive development and practical
-                business thinking. Every page is made to look professional and work well
-                on mobile, tablet and desktop.
-              </p>
-            </article>
-            <article class="about-card">
-              <span>What I build</span>
-              <h3>Business websites</h3>
-              <p>Café menus, gym websites, booking experiences and service portfolios.</p>
-            </article>
-            <article class="about-card dark-card">
-              <span>My focus</span>
-              <h3>Simple & effective</h3>
-              <p>Clean layouts, clear calls to action and an experience people can use easily.</p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section projects" id="projects">
-        <div class="container">
-          <div class="section-heading section-heading-dark">
-            <div>
-              <p class="eyebrow light">02 / Project work</p>
-              <h2>Selected projects</h2>
-            </div>
-            <p>Simple project cards with direct links to each live GitHub website.</p>
-          </div>
-
-          <div class="project-grid">
-            <a class="project-card" href="https://ravikantdiwaker5-debug.github.io/Gym-website/" target="_blank" rel="noreferrer">
-              <div class="project-top"><span>01</span><span>↗</span></div>
-              <p class="project-type">Fitness · Business website</p>
-              <h3>Gym Website</h3>
-              <p>A clean fitness website presenting training, facilities and membership actions.</p>
-              <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
-            </a>
-
-            <a class="project-card" href="https://ravikantdiwaker5-debug.github.io/Gym-2-/" target="_blank" rel="noreferrer">
-              <div class="project-top"><span>02</span><span>↗</span></div>
-              <p class="project-type">Fitness · Membership system</p>
-              <h3>Gym 2.0</h3>
-              <p>A membership-focused experience with registration, fee plans and member details.</p>
-              <div class="tags"><span>Dashboard</span><span>Membership</span><span>Responsive</span></div>
-            </a>
-
-            <a class="project-card" href="https://ravikantdiwaker5-debug.github.io/The-11-11-cafe/" target="_blank" rel="noreferrer">
-              <div class="project-top"><span>03</span><span>↗</span></div>
-              <p class="project-type">Hospitality · Ordering</p>
-              <h3>The 11:11 Cafe</h3>
-              <p>A café website made for menu discovery, table booking and online ordering.</p>
-              <div class="tags"><span>Menu</span><span>Booking</span><span>Ordering</span></div>
-            </a>
-
-            <a class="project-card" href="https://ravikantdiwaker5-debug.github.io/bravio-cafe-/" target="_blank" rel="noreferrer">
-              <div class="project-top"><span>04</span><span>↗</span></div>
-              <p class="project-type">Hospitality · QR experience</p>
-              <h3>Bravio Cafe</h3>
-              <p>A table-first café concept with QR ordering, cart and owner order information.</p>
-              <div class="tags"><span>QR order</span><span>Cart</span><span>Owner view</span></div>
-            </a>
-          </div>
-        </div>
-      </section>
-
-      <section class="section blog" id="blog">
-        <div class="container">
-          <div class="section-heading">
-            <div>
-              <p class="eyebrow">03 / Daily blog</p>
-              <h2>Latest posts</h2>
-            </div>
-            <p>Practical notes about web development, design, SEO and business growth.</p>
-          </div>
-
-          <div class="blog-grid" id="blog-grid" aria-live="polite"></div>
-        </div>
-      </section>
-
-      <section class="contact" id="contact">
-        <div class="container contact-grid">
+    <section class="section" id="about">
+      <div class="container">
+        <p class="section-number">01 — ABOUT</p>
+        <div class="split-heading">
           <div>
-            <p class="eyebrow">04 / Contact</p>
-            <h2>Have a business idea?<br />Let’s make it real.</h2>
+            <p class="eyebrow">THE PERSON BEHIND THE WORK</p>
+            <h2>Developer mindset.<br><em>Creative execution.</em></h2>
           </div>
-          <div class="contact-links">
-            <a href="mailto:ravikantdiwaker123@gmail.com">
-              <span>Email</span><strong>ravikantdiwaker123@gmail.com</strong><b>↗</b>
-            </a>
-            <a href="https://wa.me/917982697640?text=Hi%20Ravi%2C%20I%20want%20to%20discuss%20a%20website%20for%20my%20business." target="_blank" rel="noreferrer">
-              <span>WhatsApp</span><strong>+91 79826 97640</strong><b>↗</b>
-            </a>
+          <p class="section-intro">I combine web development, AI tools and digital marketing to turn ideas into useful digital products. This site is also my home for templates, projects and daily technology articles.</p>
+        </div>
+        <div class="about-grid">
+          <div class="about-panel">
+            <span class="big-index">R/01</span>
+            <h3>Build. Learn. Publish.</h3>
+            <p>From business websites to reusable templates and practical tech guides, I'm building a digital library that helps businesses and creators move faster online.</p>
+          </div>
+          <div class="stats-grid">
+            <div><strong>01</strong><span>Web Development</span></div>
+            <div><strong>02</strong><span>AI & Technology</span></div>
+            <div><strong>03</strong><span>Digital Marketing</span></div>
+            <div><strong>04</strong><span>Templates & Resources</span></div>
           </div>
         </div>
-      </section>
-    </main>
-
-    <footer>
-      <div class="container footer-grid">
-        <a class="brand" href="#home"><span class="brand-mark">RD</span><span>Ravi Digital</span></a>
-        <p>© <span id="year"></span> Ravi Digital</p>
-        <a href="https://github.com/ravikantdiwaker5-debug" target="_blank" rel="noreferrer">GitHub ↗</a>
       </div>
-    </footer>
+    </section>
 
-    <dialog class="blog-dialog" id="blog-dialog">
-      <button class="dialog-close" type="button" aria-label="Close article">×</button>
-      <img id="dialog-image" alt="" />
-      <div class="dialog-content">
-        <p class="dialog-meta" id="dialog-meta"></p>
-        <h2 id="dialog-title"></h2>
-        <div id="dialog-body"></div>
+    <section class="section dark-section" id="services">
+      <div class="container">
+        <p class="section-number">02 — SERVICES</p>
+        <p class="eyebrow">WHAT I CAN BUILD</p>
+        <h2 class="title">Digital solutions with <em>purpose.</em></h2>
+        <div class="service-grid">
+          <article class="service-card featured">
+            <span>01</span><div class="service-icon">&lt;/&gt;</div>
+            <h3>Business Websites</h3>
+            <p>Modern responsive websites for cafés, gyms, creators and growing businesses.</p>
+            <a href="#contact">Start a project ↗</a>
+          </article>
+          <article class="service-card">
+            <span>02</span><div class="service-icon">✦</div>
+            <h3>AI & Automation</h3>
+            <p>Practical AI workflows, content systems and lightweight digital tools.</p>
+            <a href="#contact">Discuss an idea ↗</a>
+          </article>
+          <article class="service-card">
+            <span>03</span><div class="service-icon">↗</div>
+            <h3>Digital Growth</h3>
+            <p>Landing pages, basic SEO, content direction and conversion-focused improvements.</p>
+            <a href="#contact">Grow online ↗</a>
+          </article>
+        </div>
       </div>
-    </dialog>
+    </section>
 
-    <script src="script.js" defer></script>
-  </body>
+    <section class="section" id="projects">
+      <div class="container">
+        <p class="section-number">03 — PROJECTS</p>
+        <p class="eyebrow">SELECTED WORK</p>
+        <div class="split-heading">
+          <h2>Things I'm <em>building.</em></h2>
+          <p class="section-intro">Replace these cards with your live project links as your portfolio grows.</p>
+        </div>
+        <div class="project-grid">
+          <article class="project-card project-main">
+            <div class="project-visual visual-green"><span>RAVI.</span></div>
+            <small>WEB / 01</small><h3>Ravi Digital Portfolio</h3>
+            <p>Personal brand website with services, templates and a publishing hub.</p>
+            <a href="#home">View project ↗</a>
+          </article>
+          <article class="project-card">
+            <div class="project-visual visual-black"><span>11 11<br>CAFE</span></div>
+            <small>WEB / 02</small><h3>Café Website</h3>
+            <p>Premium café landing page with menu, story and contact sections.</p>
+            <a href="#contact">Add live link ↗</a>
+          </article>
+          <article class="project-card">
+            <div class="project-visual visual-gray"><span>BRAVIO<br>CAFE</span></div>
+            <small>WEB / 03</small><h3>Restaurant Concept</h3>
+            <p>Responsive restaurant template designed for conversion and branding.</p>
+            <a href="#contact">Add live link ↗</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section dark-section" id="templates">
+      <div class="container">
+        <div class="section-topline">
+          <div>
+            <p class="section-number">04 — TEMPLATE SHOP</p>
+            <p class="eyebrow">READY-TO-USE DIGITAL PRODUCTS</p>
+            <h2 class="title">Build faster with <em>ready-made templates.</em></h2>
+          </div>
+          <p class="section-intro">Add your Gumroad, Lemon Squeezy, WhatsApp or other checkout links inside <code>templates.js</code>.</p>
+        </div>
+        <div id="templateGrid" class="template-grid"></div>
+      </div>
+    </section>
+
+    <section class="section blog-section" id="blog">
+      <div class="container">
+        <div class="section-topline">
+          <div>
+            <p class="section-number">05 — DAILY BLOG</p>
+            <p class="eyebrow">AI • TECH • BUSINESS • HOW-TO</p>
+            <h2 class="title">Ideas worth <em>reading.</em></h2>
+          </div>
+          <a class="text-link" href="blog/">Open full blog ↗</a>
+        </div>
+        <div id="blogGrid" class="blog-grid"></div>
+        <div class="blog-note">
+          <span>✦</span>
+          <div><strong>Want to publish daily?</strong><p>Edit <code>blog/posts.js</code>, add a new post object and push to GitHub. Your latest article will appear here automatically.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <p class="section-number">06 — CONTACT</p>
+        <div class="contact-box">
+          <div>
+            <p class="eyebrow">LET'S WORK TOGETHER</p>
+            <h2>Have an idea?<br><em>Let's build it.</em></h2>
+            <p>Need a website, template customization, landing page or digital growth support? Send a message and let's talk.</p>
+            <div class="contact-links">
+              <a href="mailto:ravikantdiwaker386@gmail.com">ravikantdiwaker386@gmail.com ↗</a>
+              <a href="https://github.com/" target="_blank" rel="noopener">GitHub ↗</a>
+              <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn ↗</a>
+            </div>
+          </div>
+          <form id="contactForm">
+            <label>Name<input id="name" required placeholder="Your name"></label>
+            <label>Email<input id="email" type="email" required placeholder="you@example.com"></label>
+            <label>Message<textarea id="message" required rows="5" placeholder="Tell me about your project..."></textarea></label>
+            <button class="btn btn-primary" type="submit">Send via Email ↗</button>
+            <p class="form-note" id="formNote"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <a class="logo" href="#home"><span>R</span>avi<span class="dot">.</span></a>
+      <p>© <span id="year"></span> Ravi Digital. Built with code & curiosity.</p>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="blog/posts.js"></script>
+  <script src="templates.js"></script>
+  <script src="script.js"></script>
+</body>
 </html>
